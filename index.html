@@ -476,7 +476,7 @@
                                 <strong>Téléphone</strong>
                             </h6>
                             <p class="mbr-text mbr-fonts-style display-7">
-                                <a href="tel:+12345678910" class="text-primary">514 660-1583</a>
+                                <a href="" class="text-primary" id="phone"></a>
                             </p>
                         </div>
                     </div>
@@ -578,6 +578,14 @@
     <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/theme/js/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
+    <script>
+        var encPhone = "NTE0IDY2MC0xNTgz";
+        var encPhoneFull ="KzE1MTQ2NjAxNTgz";
+        const tagphone = document.getElementById("phone");
+        tagphone.setAttribute("href", "tel:".concat(atob(encPhoneFull)));
+        let textNode = document.createTextNode(atob(encPhone));
+        tagphone.appendChild(textNode);
+    </script>
 
 
     <input name="animation" type="hidden">
