@@ -30,11 +30,22 @@ body {
 }
 .display-2 {
   font-family: 'Playfair', serif;
-  font-size: 3.4rem;
+  font-size: 3.375rem;
   line-height: 1;
+  color: #7A0081;
+  text-align: center;
+  font-weight: 500;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.25rem;
+}
+.display-3 {
+  font-family: 'Playfair', serif;
+  font-size: 2.5625rem;
+  line-height: 1;
+  color: #0A648E;
+  text-align: center;
+  font-weight: 500;
 }
 .display-4 {
   font-family: 'Manrope', sans-serif;
@@ -185,8 +196,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #4552ff !important;
-  border-color: #4552ff !important;
+  background-color: #0A648E !important;
+  border-color: #0A648E !important;
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -361,23 +372,23 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background-color: transparent !important;
-  border-color: #4552ff;
-  color: #4552ff;
+  border-color: #0A648E;
+  color: #0A648E;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #0011ed !important;
+  color: #7A0081 !important;
   background-color: transparent !important;
-  border-color: #0011ed !important;
+  border-color: #7A0081 !important;
   box-shadow: none !important;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #4552ff !important;
-  border-color: #4552ff !important;
+  background-color: #0A648E !important;
+  border-color: #0A648E !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -509,7 +520,7 @@ body {
   color: #0A648E !important;
 }
 .text-secondary {
-  color: #4552ff !important;
+  color: #0A648E !important;
 }
 .text-success {
   color: #000000 !important;
@@ -715,7 +726,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #ffffff !important;
-  background: #4552ff !important;
+  background: #0A648E !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -1419,7 +1430,7 @@ a {
   }
 }
 .cid-tJGD1DIY2H .card-title {
-  color: #4552ff;
+  color: #0A648E;
 }
 .cid-upAxFXO3s7 {
   padding-top: 5rem;
@@ -1485,31 +1496,31 @@ a {
   display: flex;
   justify-content: center;
 }
-.cid-tJGEoKGifq {
+.abi_approche {
   padding-top: 6rem;
   padding-bottom: 2rem;
   background-color: #ffffff;
 }
-.cid-tJGEoKGifq img,
-.cid-tJGEoKGifq .item-img {
+.abi_approche img,
+.abi_approche .item-img {
   width: 100%;
   height: 100%;
   height: 400px;
   object-fit: cover;
 }
-.cid-tJGEoKGifq .item:focus,
-.cid-tJGEoKGifq span:focus {
+.abi_approche .item:focus,
+.abi_approche span:focus {
   outline: none;
 }
-.cid-tJGEoKGifq .item {
+.abi_approche .item {
   margin-bottom: 2rem;
 }
 @media (max-width: 767px) {
-  .cid-tJGEoKGifq .item {
+  .abi_approche .item {
     margin-bottom: 1rem;
   }
 }
-.cid-tJGEoKGifq .item-content {
+.abi_approche .item-content {
   margin-top: 2rem;
   padding: 0 2.25rem 2.25rem;
   display: flex;
@@ -1517,12 +1528,12 @@ a {
   height: 100%;
 }
 @media (max-width: 767px) {
-  .cid-tJGEoKGifq .item-content {
+  .abi_approche .item-content {
     padding: 0 2rem 1.5rem;
     margin-top: 1rem;
   }
 }
-.cid-tJGEoKGifq .item-wrapper {
+.abi_approche .item-wrapper {
   position: relative;
   border-radius: 2rem;
   background: #f7f7f7;
@@ -1530,26 +1541,26 @@ a {
   display: flex;
   flex-flow: column nowrap;
 }
-.cid-tJGEoKGifq .item-wrapper .item-footer {
+.abi_approche .item-wrapper .item-footer {
   margin-top: auto;
 }
-.cid-tJGEoKGifq .mbr-section-title {
+.abi_approche .mbr-section-title {
   color: #0A648E;
   text-align: center;
 }
-.cid-tJGEoKGifq .item-title {
+.abi_approche .item-title {
   text-align: left;
   color: #0A648E;
 }
-.cid-tJGEoKGifq .item-subtitle {
+.abi_approche .item-subtitle {
   text-align: center;
 }
-.cid-tJGEoKGifq .mbr-text,
-.cid-tJGEoKGifq .item .mbr-section-btn {
+.abi_approche .mbr-text,
+.abi_approche .item .mbr-section-btn {
   text-align: left;
 }
-.cid-tJGEoKGifq .mbr-section-subtitle,
-.cid-tJGEoKGifq .mbr-section-head .mbr-section-btn {
+.abi_approche .mbr-section-subtitle,
+.abi_approche .mbr-section-head .mbr-section-btn {
   text-align: center;
   color: #454745;
 }
