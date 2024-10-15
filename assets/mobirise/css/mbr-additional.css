@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 2rem !important;
+  border-radius: 1rem !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -73,7 +73,7 @@ body {
 .display-7 {
   font-family: 'Manrope', sans-serif;
   font-size: 1.3rem;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.75rem;
@@ -1529,10 +1529,14 @@ a {
 }
 .abi_approche .item-content {
   margin-top: 2rem;
-  padding: 0 2.25rem 2.25rem;
+  padding: 0 2.5rem 2.5rem;
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.abi_approche .item-content .display-7:last-child{
+  margin-bottom: 0;
 }
 @media (max-width: 767px) {
   .abi_approche .item-content {
@@ -1543,7 +1547,7 @@ a {
 .abi_approche .item-wrapper {
   position: relative;
   border-radius: 2rem;
-  background: #f7f7f7;
+  background: #EDEFEB;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
