@@ -1684,6 +1684,11 @@ a {
   background-image: url("../../../assets/images/chloe-bolton-l-bxrw-bz9i-unsplash.jpeg");
 }
 
+.abi_photo{
+  border-radius: 100% !important;
+  max-width: 19rem;
+}
+
 .abi_about .display-2, .abi_about .display-3{
   text-align: left;
 }
@@ -1725,9 +1730,6 @@ a {
   }
 }
 
-.abi_about .card-title {
-  color: #0A648E;
-}
 
 .cid-upAxFXO3s7 {
   padding-top: 5rem;
