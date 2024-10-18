@@ -1684,9 +1684,25 @@ a {
   background-image: url("../../../assets/images/chloe-bolton-l-bxrw-bz9i-unsplash.jpeg");
 }
 
+.photo_container{
+  position: relative;
+}
+
 .abi_photo{
   border-radius: 100% !important;
   max-width: 19rem;
+}
+
+.photo_container .cicle_one{
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.photo_container .cicle_two{
+  position: absolute;
+  bottom: 2.5rem;
+  left: 14rem;
 }
 
 .abi_about .display-2, .abi_about .display-3{
