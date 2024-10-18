@@ -1679,9 +1679,9 @@ a {
 }
 
 .abi_about {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/chloe-bolton-l-bxrw-bz9i-unsplash.jpeg");
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+  background-color: #EDEFEB;
 }
 
 .photo_container{
@@ -1691,18 +1691,30 @@ a {
 .abi_photo{
   border-radius: 100% !important;
   max-width: 19rem;
+  position: relative;
+  z-index: 2;
 }
 
 .photo_container .cicle_one{
   position: absolute;
   bottom: 0.5rem;
   left: 0.5rem;
+  z-index: 1;
 }
 
 .photo_container .cicle_two{
   position: absolute;
   bottom: 2.5rem;
   left: 14rem;
+  z-index: 3;
+
+}
+
+.photo_container .half_cercle{
+  position: absolute;
+  bottom: 1.5rem;
+  left: 12rem;
+  z-index: 1;
 }
 
 .abi_about .display-2, .abi_about .display-3{
@@ -1933,21 +1945,21 @@ a {
 .abi_tarif {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #edefeb;
+  background-color: #fff;
 
 }
 
-.floating_triangle {
+.abi_tarif .floating_triangle {
   position: absolute;
   left: -4.64194rem;
-  bottom: -4.91569rem;
+  bottom: -4.5rem;
 }
-.floating_moon {
+.abi_tarif .floating_moon {
   position: absolute;
   right: -2.62638rem;
   top: 0.69775rem;
 }
-.floating_halfcercle {
+.abi_tarif .floating_halfcercle {
   position: absolute;
   right: 0.00863rem;
   top: -4.17725rem;
@@ -1968,13 +1980,34 @@ a {
 }
 
 .abi_tarif .card-wrapper {
-  border-radius: 4px;
+  border-radius: 1rem;
 }
 
 @media (max-width: 767px) {
   .abi_tarif .card-wrapper {
     padding: 1.5rem;
   }
+  .abi_tarif .floating_triangle, .abi_tarif .floating_moon, .abi_tarif .floating_halfcercle{
+    max-width: 180px;
+    max-height: 180px;
+  }
+
+  .abi_tarif .floating_moon {
+    display: none;
+  }
+  .abi_tarif .floating_halfcercle {
+    right: -1rem;
+    top: -2rem;
+  }
+
+  .photo_container{
+    margin-top: 2rem;
+  }
+
+  .photo_container .half_cercle{
+    bottom: 0;
+  }
+ 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
