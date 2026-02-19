@@ -10,10 +10,13 @@ body {
   color: #220224;
   position: relative;
 }
+.header1.intro{
+  padding-top:12rem;
+}
 
 h1.abi_title{
-  margin-bottom: 0;
-  font-size: 4.875rem;;
+  font-size: 4rem;;
+  line-height: .9;
 }
 
 p.abi_tagline{
@@ -23,6 +26,9 @@ p.abi_tagline{
   font-style: normal;
   font-weight: 500;
   line-height: 2.625rem; /* 100% */
+}
+p.text-intro{
+  font-size: 1.2rem;
 }
 
 .abi_icon img{
