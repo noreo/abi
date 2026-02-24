@@ -156,7 +156,7 @@ body {
 } */
 
 
-@media (min-width: 992px) and (max-width: 1400px) {
+/* @media (min-width: 992px) and (max-width: 1400px) {
   .display-1 {
     font-size: 2.94rem;
     font-size: calc(2.12rem + (4.2 - 2.12) * ((100vw - 62rem) / (87 - 62)));
@@ -186,7 +186,7 @@ body {
     font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
     line-height: calc(1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
   }
-}
+} */
 
 /* Buttons */
 .btn {
